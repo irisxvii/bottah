@@ -35,5 +35,10 @@ def send_email():
 
 def get_email_info():
     talk('who do u wanna send this to?')
+    name = get_info()
+    talk('gimme the subject of your email')
+    subject = get_info()
+    talk('its time for the main text lessgoo. talk your heart out')
+    message = get_info()
 
 get_email_info()
