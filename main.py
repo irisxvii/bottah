@@ -2,6 +2,7 @@ import os
 import smtplib
 import speech_recognition as sr
 import pyttsx3
+from email.message import EmailMessage
 
 listener = sr.Recognizer()
 engine = pyttsx3.init()
@@ -31,7 +32,12 @@ def send_email(receiver, subject, message):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
     server.login('gracegram06@gmail.com', email_pass)
-    server.sendmail('gracegram06@gmail.com','iriskurien@gmail.com','testing second love')
+    email = EmailMessage()
+    email['From'] = 'gracegram06@gmail.com'
+    email['To'] = receiver
+    email['Subject'] = subject
+    email.set_content(message)
+    server.send_message(email)
 
 email_list = {
     'rebecca' : 'rebeccaebby5@gmail.com',
