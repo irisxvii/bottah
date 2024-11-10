@@ -27,18 +27,27 @@ email_pass = os.getenv("email_pass")
 if not email_pass:
     print("email_pass is not set.")
 
-def send_email():
+def send_email(receiver, subject, message):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
     server.login('gracegram06@gmail.com', email_pass)
     server.sendmail('gracegram06@gmail.com','iriskurien@gmail.com','testing second love')
 
+email_list = {
+    'rebecca' : 'rebeccaebby5@gmail.com',
+    'iris' : 'iriskurien@gmail.com',
+    'leya' : 'leyariboy@gmail.com'
+}
+
 def get_email_info():
     talk('who do u wanna send this to?')
     name = get_info()
+    receiver = email_list[name]
+    print(receiver)
     talk('gimme the subject of your email')
     subject = get_info()
     talk('its time for the main text lessgoo. talk your heart out')
     message = get_info()
+    send_email(receiver, subject, message)
 
 get_email_info()
