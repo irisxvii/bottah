@@ -1,13 +1,12 @@
-# Bottah
-Bottah helps you to send emails simply by using your voice. <br/>
-You can dictate the recipient's name, email subject, and body of the message, <br/>
-and the system will handle the rest. <br/>
+# Bottah🎤💌
+*Why stress typing emails when you can just speak??*  With just your voice, you can now send emails faster than you can type. <br/>
+Simply dictate the recipient, subject, and body of the message, and Bottah will handle the rest.
 
 ## How it works?
-1. It prompts you to speak the name of the recipient.
-2. Next, it asks you for the subject of your email.
-3. After that, you are asked to speak the message content.
-4. The email is then automatically sent to the selected recipient through your Gmail account.
+1. Just say the name of the person you want to email.
+2. Tell Bottah the subject of your email.
+3. Speak your heart out. 
+4. Once all the info is in, Bottah sends the email via your gmail account. Like magik :o
 
 ## Libraries used
 - Speech Recognition (speech_recognition)
