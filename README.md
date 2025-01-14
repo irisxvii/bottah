@@ -1,8 +1,4 @@
 ![bottah](https://github.com/user-attachments/assets/41a5e956-72f4-4a43-9645-cb7546ecf31c)
-# Bottah🎤💌
-*Why stress typing emails when you can just speak??*  With just your voice, you can now send emails faster than you can type. <br/>
-Simply dictate the recipient, subject, and body of the me
-ssage, and Bottah will handle the rest.
 
 ## How it works?
 1. Just say the name of the person you want to email.
