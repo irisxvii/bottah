@@ -1,5 +1,3 @@
-![bottah](https://github.com/user-attachments/assets/41a5e956-72f4-4a43-9645-cb7546ecf31c)
-
 ## How it works?
 1. Just say the name of the person you want to email.
 2. Tell Bottah the subject of your email.
